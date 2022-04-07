@@ -1,7 +1,7 @@
 #carregando as bibliotecas
 import pandas as pd
 import streamlit as st
-
+from pycaret.classification import load_model, predict_model
 
 var_model = "model"
 var_dataset = "health.csv"
