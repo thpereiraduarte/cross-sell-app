@@ -2,6 +2,7 @@
 import pandas as pd
 import streamlit as st
 from pycaret.classification import load_model, predict_model
+from xgboost import XGBClassifier
 
 var_model = "model"
 var_dataset = "health.csv"
