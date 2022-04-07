@@ -31,7 +31,7 @@ Region = st.sidebar.number_input("Region", value=dataset["Region"].mean())
 Channel = st.sidebar.number_input("Channel", value=dataset["Channel"].mean())
 License = st.sidebar.number_input("License", value=dataset["License"].mean())
 Vintage = st.sidebar.number_input("Vintage", value=dataset["Vintage"].mean())
-Rage = st.sidebar.number_input("Rate", value=dataset["Rate"].mean())
+Rate = st.sidebar.number_input("Rate", value=dataset["Rate"].mean())
 Gender_Female = st.sidebar.number_input("Gender_Female", value=dataset["Gender_Female"].mean())
 Gender_Male = st.sidebar.number_input("Gender_Male", value=dataset["Gender_Male"].mean())
 
