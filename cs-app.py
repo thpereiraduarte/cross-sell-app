@@ -20,7 +20,7 @@ st.title("Health Insurance Cross Sell")
 st.markdown("Predição de probabilidade de adesão ao seguro de automóvel")
 
 # imprime o conjunto de dados usado
-st.dataframe(dataset.drop("turnover",axis=1).head())
+st.dataframe(dataset.drop("Response",axis=1).head())
 
 st.sidebar.subheader("Defina os atributos do empregado para predição de probabilidade de adesão ao seguro de automóvel")
 
